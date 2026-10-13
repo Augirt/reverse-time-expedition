@@ -1,0 +1,194 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    {
+      "name": "idle-00",
+      "file": "frames/idle-00.png"
+    },
+    {
+      "name": "idle-01",
+      "file": "frames/idle-01.png"
+    },
+    {
+      "name": "idle-03",
+      "file": "frames/idle-03.png"
+    },
+    {
+      "name": "idle-04",
+      "file": "frames/idle-04.png"
+    },
+    {
+      "name": "idle-05",
+      "file": "frames/idle-05.png"
+    },
+    {
+      "name": "idle-07",
+      "file": "frames/idle-07.png"
+    },
+    {
+      "name": "walk-01",
+      "file": "frames/walk-01.png"
+    },
+    {
+      "name": "walk-02",
+      "file": "frames/walk-02.png"
+    },
+    {
+      "name": "walk-05",
+      "file": "frames/walk-05.png"
+    },
+    {
+      "name": "walk-06",
+      "file": "frames/walk-06.png"
+    },
+    {
+      "name": "attack-01",
+      "file": "frames/attack-01.png"
+    },
+    {
+      "name": "attack-02",
+      "file": "frames/attack-02.png"
+    },
+    {
+      "name": "attack-03",
+      "file": "frames/attack-03.png"
+    },
+    {
+      "name": "attack-04",
+      "file": "frames/attack-04.png"
+    },
+    {
+      "name": "attack-05",
+      "file": "frames/attack-05.png"
+    },
+    {
+      "name": "hit-00",
+      "file": "frames/hit-00.png"
+    },
+    {
+      "name": "hit-01",
+      "file": "frames/hit-01.png"
+    },
+    {
+      "name": "hit-02",
+      "file": "frames/hit-02.png"
+    },
+    {
+      "name": "hit-03",
+      "file": "frames/hit-03.png"
+    }
+  ],
+  "anchor_px": [
+    64,
+    124
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        "idle-00",
+        "idle-01",
+        "idle-01",
+        "idle-03",
+        "idle-04",
+        "idle-05",
+        "idle-05",
+        "idle-07"
+      ],
+      "duration_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": true,
+      "events": []
+    },
+    "walk": {
+      "frames": [
+        "idle-00",
+        "walk-01",
+        "walk-02",
+        "walk-01",
+        "idle-00",
+        "walk-05",
+        "walk-06",
+        "walk-05"
+      ],
+      "duration_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true,
+      "events": []
+    },
+    "attack": {
+      "frames": [
+        "idle-00",
+        "attack-01",
+        "attack-02",
+        "attack-03",
+        "attack-04",
+        "attack-05",
+        "idle-00",
+        "idle-00"
+      ],
+      "duration_ms": [
+        90,
+        105,
+        105,
+        55,
+        55,
+        90,
+        100,
+        100
+      ],
+      "loop": false,
+      "events": [
+        {
+          "at": 3,
+          "name": "impact"
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        "hit-00",
+        "hit-01",
+        "hit-02",
+        "hit-03",
+        "idle-00",
+        "idle-00"
+      ],
+      "duration_ms": [
+        50,
+        60,
+        80,
+        80,
+        90,
+        100
+      ],
+      "loop": false,
+      "events": []
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack": "attack",
+    "hit": "hit"
+  },
+  "art_source": "host_image",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "body_height_px": 108
+}

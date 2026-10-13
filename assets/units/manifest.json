@@ -1,0 +1,572 @@
+{
+  "schema": "reverse-time.atlas.v1",
+  "canvas": [
+    160,
+    144
+  ],
+  "anchor": [
+    64,
+    124
+  ],
+  "palette": [
+    "#070d14",
+    "#101922",
+    "#18232b",
+    "#26323b",
+    "#35434b",
+    "#465660",
+    "#53616a",
+    "#718089",
+    "#8f9fa5",
+    "#b4c0be",
+    "#283631",
+    "#414b42",
+    "#687060",
+    "#8a8d77",
+    "#adab8c",
+    "#574933",
+    "#8a704c",
+    "#b8a06a",
+    "#d2b98a",
+    "#93745b",
+    "#c8a785",
+    "#355858",
+    "#4f7576",
+    "#76d4d5",
+    "#b9e4df",
+    "#493148",
+    "#6f4564",
+    "#b74d8a",
+    "#cb679d"
+  ],
+  "units": {
+    "hunter": {
+      "atlas": "/assets/units/hunter/atlas.png",
+      "master": "/assets/units/hunter/master.png",
+      "weapon": "/assets/units/hunter/weapon.png",
+      "impactMs": 120,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            36,
+            42,
+            42,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 520
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "guard": {
+      "atlas": "/assets/units/guard/atlas.png",
+      "master": "/assets/units/guard/master.png",
+      "weapon": "/assets/units/guard/weapon.png",
+      "impactMs": 240,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            72,
+            84,
+            84,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 640
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "medic": {
+      "atlas": "/assets/units/medic/atlas.png",
+      "master": "/assets/units/medic/master.png",
+      "weapon": "/assets/units/medic/weapon.png",
+      "impactMs": 130,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            39,
+            46,
+            45,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 530
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "raider": {
+      "atlas": "/assets/units/raider/atlas.png",
+      "master": "/assets/units/raider/master.png",
+      "weapon": "/assets/units/raider/weapon.png",
+      "impactMs": 100,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            30,
+            35,
+            35,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 500
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "gunner": {
+      "atlas": "/assets/units/gunner/atlas.png",
+      "master": "/assets/units/gunner/master.png",
+      "weapon": "/assets/units/gunner/weapon.png",
+      "impactMs": 180,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            54,
+            63,
+            63,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 580
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "brute": {
+      "atlas": "/assets/units/brute/atlas.png",
+      "master": "/assets/units/brute/master.png",
+      "weapon": "/assets/units/brute/weapon.png",
+      "impactMs": 260,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            78,
+            91,
+            91,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 660
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "echo": {
+      "atlas": "/assets/units/echo/atlas.png",
+      "master": "/assets/units/echo/master.png",
+      "weapon": "/assets/units/echo/weapon.png",
+      "impactMs": 210,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            63,
+            74,
+            73,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 610
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "auditor": {
+      "atlas": "/assets/units/auditor/atlas.png",
+      "master": "/assets/units/auditor/master.png",
+      "weapon": "/assets/units/auditor/weapon.png",
+      "impactMs": 300,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            90,
+            105,
+            105,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 700
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    }
+  }
+}
