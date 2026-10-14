@@ -780,6 +780,270 @@
           "duration": 460
         }
       }
+    },
+    "guitarist": {
+      "atlas": "/assets/units/guitarist/atlas.png",
+      "master": "/assets/units/guitarist/master.png",
+      "weapon": "/assets/units/guitarist/weapon.png",
+      "impactMs": 180,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            54,
+            63,
+            63,
+            65,
+            70,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 605
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "bassist": {
+      "atlas": "/assets/units/bassist/atlas.png",
+      "master": "/assets/units/bassist/master.png",
+      "weapon": "/assets/units/bassist/weapon.png",
+      "impactMs": 160,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            48,
+            56,
+            56,
+            65,
+            70,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 585
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "drummer": {
+      "atlas": "/assets/units/drummer/atlas.png",
+      "master": "/assets/units/drummer/master.png",
+      "weapon": "/assets/units/drummer/weapon.png",
+      "impactMs": 240,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            72,
+            84,
+            84,
+            65,
+            70,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 665
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
+    },
+    "vocalist": {
+      "atlas": "/assets/units/vocalist/atlas.png",
+      "master": "/assets/units/vocalist/master.png",
+      "weapon": "/assets/units/vocalist/weapon.png",
+      "impactMs": 300,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            90,
+            105,
+            105,
+            65,
+            70,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 725
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
     }
   }
 }
