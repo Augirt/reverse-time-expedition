@@ -567,6 +567,72 @@
           "duration": 460
         }
       }
+    },
+    "hacker": {
+      "atlas": "/assets/units/hacker/atlas.png",
+      "master": "/assets/units/hacker/master.png",
+      "weapon": "/assets/units/hacker/weapon.png",
+      "impactMs": 130,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "loop": true,
+          "duration": 1600
+        },
+        "walk": {
+          "row": 1,
+          "durations": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "loop": true,
+          "duration": 800
+        },
+        "attack": {
+          "row": 2,
+          "durations": [
+            39,
+            45,
+            46,
+            55,
+            55,
+            90,
+            100,
+            100
+          ],
+          "loop": false,
+          "duration": 530
+        },
+        "hit": {
+          "row": 3,
+          "durations": [
+            50,
+            60,
+            80,
+            80,
+            90,
+            100
+          ],
+          "loop": false,
+          "duration": 460
+        }
+      }
     }
   }
 }
