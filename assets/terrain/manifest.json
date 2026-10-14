@@ -1,0 +1,124 @@
+{
+  "schema": "reverse-time.terrain-assets.v1",
+  "version": "0.3.0",
+  "worldUnitsPerRuntimePixel": 1,
+  "directionBakedIntoImage": false,
+  "items": [
+    {
+      "id": "push-plate-harbor",
+      "image": "push-plate-harbor.png",
+      "sha256": "18d9ceff0fb9893a386045c222858511389a21f4cde142beeb7a6e4a189acb8a",
+      "bytes": 2651,
+      "canvas": [
+        80,
+        52
+      ],
+      "anchor": [
+        40,
+        26
+      ],
+      "contentSize": [
+        72,
+        29
+      ],
+      "sourceUniformScale": 0.05508798775822494,
+      "anchorPolicy": "centre of common runtime canvas",
+      "art_source": "host_image",
+      "route": "image_gen",
+      "model": null,
+      "estimateUsd": null,
+      "palette": [
+        "#070d14",
+        "#101922",
+        "#172320",
+        "#182633",
+        "#26323b",
+        "#283631",
+        "#34434b",
+        "#3f4b45",
+        "#465044",
+        "#465660",
+        "#53616a",
+        "#607078",
+        "#687060",
+        "#786c4c",
+        "#8a704c",
+        "#997b4f",
+        "#b8a06a",
+        "#b4c0be"
+      ],
+      "visibleRgbCount": 17,
+      "alphaMode": "native alpha sampled with nearest resize; not chroma keyed",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundingBox": [
+        4,
+        11,
+        76,
+        40
+      ],
+      "solid": false,
+      "occlusion": "below units"
+    },
+    {
+      "id": "push-plate-court",
+      "image": "push-plate-court.png",
+      "sha256": "049901d6d50aa2917990435496fafbd5216f06cf89cb1af62fed56555cfaae57",
+      "bytes": 2341,
+      "canvas": [
+        80,
+        52
+      ],
+      "anchor": [
+        40,
+        26
+      ],
+      "contentSize": [
+        72,
+        29
+      ],
+      "sourceUniformScale": 0.05508798775822494,
+      "anchorPolicy": "centre of common runtime canvas",
+      "art_source": "host_image",
+      "route": "image_gen",
+      "model": null,
+      "estimateUsd": null,
+      "palette": [
+        "#070d14",
+        "#101922",
+        "#172320",
+        "#182633",
+        "#26323b",
+        "#283631",
+        "#34434b",
+        "#3f4b45",
+        "#465044",
+        "#465660",
+        "#53616a",
+        "#607078",
+        "#687060",
+        "#786c4c",
+        "#8a704c",
+        "#997b4f",
+        "#b8a06a",
+        "#b4c0be"
+      ],
+      "visibleRgbCount": 18,
+      "alphaMode": "native alpha sampled with nearest resize; not chroma keyed",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundingBox": [
+        4,
+        11,
+        76,
+        40
+      ],
+      "solid": false,
+      "occlusion": "below units"
+    }
+  ]
+}
