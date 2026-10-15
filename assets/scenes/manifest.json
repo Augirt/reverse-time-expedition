@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "scenes": [
+    {
+      "planId": "past-1",
+      "id": "dock-seven",
+      "label": "第七码头",
+      "file": "dock-seven.webp",
+      "width": 768,
+      "height": 512,
+      "bytes": 77666,
+      "sha256": "ccbea0eac0150aad7815da94307bfa13c41ff0b301aa4688453e1312e0694a40"
+    },
+    {
+      "planId": "past-2",
+      "id": "transfer-bridge",
+      "label": "转运栈桥",
+      "file": "transfer-bridge.webp",
+      "width": 768,
+      "height": 512,
+      "bytes": 95404,
+      "sha256": "71281f95dff813844ec5aebe930859f3259503626465a0b79863232634e63999"
+    },
+    {
+      "planId": "past-3",
+      "id": "band-stage",
+      "label": "乐队舞台",
+      "file": "band-stage.webp",
+      "width": 768,
+      "height": 512,
+      "bytes": 60338,
+      "sha256": "2a60bc44c851683b843190647f2a0bb1a55b864f14e34f33e964b7cdcfdb1370"
+    },
+    {
+      "planId": "past-4",
+      "id": "tidal-gate",
+      "label": "潮汐闸门",
+      "file": "tidal-gate.webp",
+      "width": 768,
+      "height": 512,
+      "bytes": 99396,
+      "sha256": "b62c423059af3e2e81a3a7fef1fda27e89ec7566881eababb95294756abc223f"
+    },
+    {
+      "planId": "past-5",
+      "id": "zero-transfer",
+      "label": "零点转运站",
+      "file": "zero-transfer.webp",
+      "width": 768,
+      "height": 512,
+      "bytes": 71380,
+      "sha256": "807c0fbdb920b430a2abdb662daab725b9832b6c86600b06e449de8d35dc78c4"
+    }
+  ]
+}
