@@ -1,0 +1,86 @@
+{
+  "schema": "reverse-time.map-lab-assets.v1",
+  "items": [
+    {
+      "id": "freight",
+      "image": "freight-background.png",
+      "canvas": [
+        724,
+        543
+      ],
+      "sourceCanvas": [
+        1448,
+        1086
+      ],
+      "sha256": "a87412e7978e45677a093fc1f659d185787c67200846402428d5b0b0517c5c70",
+      "bytes": 293510,
+      "art_source": "host_image",
+      "route": "image_gen",
+      "model": null,
+      "estimateUsd": null,
+      "sourceUniformScale": 0.5,
+      "paletteColors": 96,
+      "dither": false,
+      "anchor": [
+        0,
+        0
+      ],
+      "occlusion": "below tactical grid",
+      "solid": false
+    },
+    {
+      "id": "cooling",
+      "image": "cooling-background.png",
+      "canvas": [
+        724,
+        543
+      ],
+      "sourceCanvas": [
+        1448,
+        1086
+      ],
+      "sha256": "74aadcd0e1a7d6882456e0804c350da28c4ea685dc0cd55147ce9c2419080ae0",
+      "bytes": 296746,
+      "art_source": "host_image",
+      "route": "image_gen",
+      "model": null,
+      "estimateUsd": null,
+      "sourceUniformScale": 0.5,
+      "paletteColors": 96,
+      "dither": false,
+      "anchor": [
+        0,
+        0
+      ],
+      "occlusion": "below tactical grid",
+      "solid": false
+    },
+    {
+      "id": "resonance",
+      "image": "resonance-background.png",
+      "canvas": [
+        724,
+        543
+      ],
+      "sourceCanvas": [
+        1448,
+        1086
+      ],
+      "sha256": "c1db29f1669bc03c0ae91c3eb3e364d75c90d97a82d4acaac7e5b3529f5fd4f4",
+      "bytes": 305806,
+      "art_source": "host_image",
+      "route": "image_gen",
+      "model": null,
+      "estimateUsd": null,
+      "sourceUniformScale": 0.5,
+      "paletteColors": 96,
+      "dither": false,
+      "anchor": [
+        0,
+        0
+      ],
+      "occlusion": "below tactical grid",
+      "solid": false
+    }
+  ]
+}
