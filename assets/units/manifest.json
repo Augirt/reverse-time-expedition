@@ -1044,6 +1044,153 @@
           "duration": 460
         }
       }
+    },
+    "memory_clock": {
+      "atlas": "/assets/units/memory_clock/idle.png",
+      "master": "/assets/units/memory_clock/idle.png",
+      "weapon": "/assets/units/memory_clock/idle.png",
+      "still": true,
+      "canvas": [
+        160,
+        144
+      ],
+      "anchor": [
+        80,
+        124
+      ],
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "walk": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "attack": {
+          "row": 0,
+          "durations": [
+            160
+          ],
+          "duration": 160,
+          "loop": false
+        },
+        "hit": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        }
+      },
+      "impactMs": 160
+    },
+    "rust_hound": {
+      "atlas": "/assets/units/rust_hound/idle.png",
+      "master": "/assets/units/rust_hound/idle.png",
+      "weapon": "/assets/units/rust_hound/idle.png",
+      "still": true,
+      "canvas": [
+        160,
+        144
+      ],
+      "anchor": [
+        80,
+        124
+      ],
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "walk": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "attack": {
+          "row": 0,
+          "durations": [
+            240
+          ],
+          "duration": 240,
+          "loop": false
+        },
+        "hit": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        }
+      },
+      "impactMs": 240
+    },
+    "audio_tripod": {
+      "atlas": "/assets/units/audio_tripod/idle.png",
+      "master": "/assets/units/audio_tripod/idle.png",
+      "weapon": "/assets/units/audio_tripod/idle.png",
+      "still": true,
+      "canvas": [
+        160,
+        144
+      ],
+      "anchor": [
+        80,
+        124
+      ],
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "walk": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "attack": {
+          "row": 0,
+          "durations": [
+            160
+          ],
+          "duration": 160,
+          "loop": false
+        },
+        "hit": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        }
+      },
+      "impactMs": 160
     }
   }
 }
