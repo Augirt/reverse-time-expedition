@@ -1191,6 +1191,55 @@
         }
       },
       "impactMs": 160
+    },
+    "super_crane": {
+      "atlas": "/assets/units/super_crane/base.png",
+      "master": "/assets/units/super_crane/base.png",
+      "weapon": "/assets/units/super_crane/hook.png",
+      "still": true,
+      "canvas": [
+        544,
+        224
+      ],
+      "anchor": [
+        272,
+        213
+      ],
+      "impactMs": 240,
+      "clips": {
+        "idle": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "walk": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        },
+        "attack": {
+          "row": 0,
+          "durations": [
+            240
+          ],
+          "duration": 240,
+          "loop": false
+        },
+        "hit": {
+          "row": 0,
+          "durations": [
+            1000
+          ],
+          "duration": 1000,
+          "loop": false
+        }
+      }
     }
   }
 }

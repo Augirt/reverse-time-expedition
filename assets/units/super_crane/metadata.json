@@ -1,0 +1,140 @@
+{
+  "schema": "reverse-time.static-layers.v1",
+  "art_source": "existing",
+  "newGenerationCalls": 0,
+  "sourceSha256": "4390a17387474cc2c52eca6a48e2801a2b3262c1980d727199369aa777fb5bc1",
+  "layers": [
+    {
+      "id": "base",
+      "path": "/assets/units/super_crane/base.png",
+      "canvas": [
+        544,
+        224
+      ],
+      "anchor": [
+        272,
+        213
+      ],
+      "anchorMeaning": "bottom-center registration of the fixed crop, not a world cell or footprint",
+      "crop": {
+        "source": "crane-approved-full-source.png",
+        "sourceRect": [
+          60,
+          760,
+          1120,
+          1170
+        ],
+        "ownershipClearRect": null,
+        "croppedSourceSha256": "8cec8f709788e06ca973216fc9c8c45252db441e255c2b8ed581aa3c5e7d738e",
+        "croppedSize": [
+          1060,
+          410
+        ]
+      },
+      "transform": {
+        "resize": [
+          530,
+          205
+        ],
+        "offset": [
+          7,
+          8
+        ],
+        "resampler": "premultiplied LANCZOS",
+        "fixedScaleXY": [
+          0.5,
+          0.5
+        ]
+      },
+      "bbox": [
+        17,
+        8,
+        524,
+        205
+      ],
+      "paletteSource": "existing approved crane runtime, 28 colors",
+      "paletteCount": 28,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "transparentPixels": 64630,
+      "visiblePixels": 57226,
+      "transparentBorder": true,
+      "transparentRgbZero": true,
+      "sha256": "d95e4a64d818c714ba6aa6f43cee3ef6ee8a57df9dd4846afe5bb2c8163fedd2",
+      "bytes": 82332
+    },
+    {
+      "id": "hook",
+      "path": "/assets/units/super_crane/hook.png",
+      "canvas": [
+        80,
+        272
+      ],
+      "anchor": [
+        40,
+        8
+      ],
+      "anchorMeaning": "top rope suspension point; move this independent layer from frozen gameplay hook coordinates",
+      "crop": {
+        "source": "crane-approved-full-source.png",
+        "sourceRect": [
+          1070,
+          250,
+          1225,
+          748
+        ],
+        "ownershipClearRect": [
+          1070,
+          250,
+          1110,
+          405
+        ],
+        "croppedSourceSha256": "a991d5fd305be98d1a14616a6bc2574cb7a31eaf51fb202c018a3ed3e1a391f3",
+        "croppedSize": [
+          155,
+          498
+        ]
+      },
+      "transform": {
+        "resize": [
+          78,
+          249
+        ],
+        "offset": [
+          1,
+          8
+        ],
+        "resampler": "premultiplied LANCZOS",
+        "fixedScaleXY": [
+          0.5032258064516129,
+          0.5
+        ]
+      },
+      "bbox": [
+        7,
+        8,
+        71,
+        250
+      ],
+      "paletteSource": "existing approved crane runtime, 28 colors",
+      "paletteCount": 28,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "transparentPixels": 13084,
+      "visiblePixels": 8676,
+      "transparentBorder": true,
+      "transparentRgbZero": true,
+      "sha256": "c03876bf7d2ab968387cc2900725d9b166267549576dcbfde937f5c711b6cf33",
+      "bytes": 14141
+    }
+  ],
+  "worldGeometry": "Unspecified. Image canvas/anchor is not occupancy, collision, targeting or camera bound. Integrator supplies frozen geometry.",
+  "layering": "Base top crop edge continues offscreen; do not expose artificial cut inside battlefield. Hook moves independently. Both layers pointer-events none; targets from real state.",
+  "sampling": "pixelated/nearest at runtime",
+  "animation": "Static source layers; no new animation/video",
+  "versionScope": "v0.26 only; exclude super_crane directory from v0.25 release"
+}
